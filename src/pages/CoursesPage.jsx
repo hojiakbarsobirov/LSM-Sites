@@ -2,7 +2,7 @@ import React from 'react'
 
 const CoursesPage = () => {
   return (
-        <div className='bg-white w-[85%] h-full rounded-xl shadow-lg'>
+        <div className='w-full h-full flex justify-center items-center font-bold text-4xl'>
             Courses page
         </div>
 

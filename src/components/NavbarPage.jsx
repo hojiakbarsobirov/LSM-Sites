@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavbarPage = () => {
     return (
-        <div className='shadow-lg bg-white w-full h-20 rounded-xl flex justify-between items-center px-4 sm:px-6 md:px-8'>
+        <div data-aos="fade-down" className='shadow-lg bg-white w-full h-20 rounded-xl flex justify-between items-center px-4 sm:px-6 md:px-8'>
             <i className='font-bold text-lg sm:text-xl'>CoddyCamp</i>
 
             <input
