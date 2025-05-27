@@ -1,48 +1,49 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Pages = () => {
   return (
-    <div className='bg-white w-[17%] h-full rounded-xl shadow-lg gap-2 flex justify-start items-center flex-col p-2'>
+    <div className='bg-white sm:w-[17%] max-w-full h-full rounded-xl shadow-lg gap-2 flex justify-start items-start flex-col p-2'>
 
-      <div className='flex items-center relative focus:right-5 gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./home.png" alt="" />
-        <h3 className=' text-lg'>Home</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0  lg:px-4 xl:px-3 ' to={'/'}>
+          <img className='w-5 max-w-full h-auto' src="./home.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>Home</h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./book.png" alt="" />
-        <h3 className=' text-lg'>Courses</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:4 xl:px-3' to={'/courses'}>
+          <img className='w-5 max-w-full h-auto' src="./book.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>Courses</h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./assignment.png" alt="" />
-        <h3 className=' text-lg'>Assignments</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:4 xl:px-3'>
+          <img className='w-5 max-w-full h-auto' src="./assignment.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>Assignments</h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./joystick.png" alt="" />
-        <h3 className=' text-lg'>In-Car Training</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3'>
+          <img className='w-5 max-w-full h-auto' src="./joystick.png" alt="" />
+          <h3 className=' text-lg hidden md:block'><Link>In-Car Training</Link></h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./calendar.png" alt="" />
-        <h3 className=' text-lg'>Calendar</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3'>
+          <img className='w-5 max-w-full' src="./calendar.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>Calendar</h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./statistics.png" alt="" />
-        <h3 className=' text-lg'>Statistics</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3'>
+          <img className='w-5 max-w-full h-auto' src="./statistics.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>Statistics</h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./certificates.png" alt="" />
-        <h3 className=' text-lg'>My Certificates</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3'>
+          <img className='w-5 max-w-full h-auto' src="./certificates.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>My Certificates</h3>
+      </Link>
 
-      <div className='flex items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl px-4'>
-        <img className='w-5' src="./settings.png" alt="" />
-        <h3 className=' text-lg'>Settings</h3>
-      </div>
+      <Link className='flex items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3'>
+          <img className='w-5 max-w-full h-auto' src="./settings.png" alt="" />
+          <h3 className=' text-lg hidden md:block'>Settings</h3>
+      </Link>
 
     </div>
   )
