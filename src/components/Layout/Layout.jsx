@@ -10,7 +10,7 @@ const Layout = () => {
                 <NavbarPage />
                 <div className=' w-full h-auto sm:flex-wrap md:flex lg:flex xl:flex justify-center items-start md:space-y-0 lg:space-y-0 sm:space-y-5 gap-5 py-5'>
                     <Pages />
-                    <div data-aos="fade-left" className='bg-white sm:w-full md:w-[92%] lg:w-[78%] xl:w-[80%] h-[77vh] rounded-xl shadow-lg'>
+                    <div data-aos="fade-left" className='bg-white sm:w-full md:w-[92%] lg:w-[78%] xl:w-[80%] h-[77vh] rounded-xl shadow-lg mt-5'>
                         <Outlet />
                     </div>
                 </div>
