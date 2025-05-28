@@ -15,12 +15,12 @@ const Pages = () => {
                 <h3 className=' text-lg hidden lg:block'>Home</h3>
             </Link>
 
-            <Link className='flex sm:justify-center md:justify-center lg:justify-start xl:justify-start items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:4 xl:px-3' to={'/courses'}>
+            <Link className='flex sm:justify-center md:justify-center lg:justify-start xl:justify-start items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0  lg:px-4 xl:px-3 ' to={'/courses'}>
                 <img className='w-5 max-w-full h-auto' src="./book.png" alt="" />
                 <h3 className=' text-lg hidden lg:block '>Courses</h3>
             </Link>
 
-            <Link to={'/assignment'} className='flex sm:justify-center md:justify-center lg:justify-start xl:justify-start items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:4 xl:px-3'>
+            <Link to={'/assignment'} className='flex sm:justify-center md:justify-center lg:justify-start xl:justify-start items-center  gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0  lg:px-4 xl:px-3 '>
                 <img className='w-5 max-w-full h-auto' src="./assignment.png" alt="" />
                 <h3 className=' text-lg hidden lg:block'>Assignments</h3>
             </Link>
