@@ -4,7 +4,6 @@ import Layout from './components/Layout/Layout'
 import HomePage from './pages/HomePage'
 import CoursesPage from './pages/CoursesPage'
 import AssignmentPage from './pages/AssignmentPage'
-import TrainingPage from './pages/TrainingPage'
 import CalendarPage from './pages/CalendarPage'
 import StatisticPage from './pages/StatisticPage'
 import CertificatesPage from './pages/CertificatesPage'
@@ -19,7 +18,6 @@ function App() {
         <Route path="/" element={< HomePage/>} />
         <Route path="/courses" element={< CoursesPage/>} />
         <Route path='/assignment' element={<AssignmentPage/>}/>
-        <Route path='/training' element={<TrainingPage/>}/>
         <Route path='/calendar' element={<CalendarPage/>}/>
         <Route path='/statistics' element={<StatisticPage/>}/>
         <Route path='/certificates' element={<CertificatesPage/>}/>
