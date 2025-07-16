@@ -1,23 +1,23 @@
 import React from 'react'
-import {  NavLink, useLocation  } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 AOS.init();
 
 const Pages = () => {
-     let location = useLocation();
-     const currentPath = location.pathname
-     console.log(currentPath);
-     
+    let location = useLocation();
+    const currentPath = location.pathname
+    console.log(currentPath);
 
-     
+
+
     return (
         <div data-aos="fade-right" className='bg-white sm:w-full md:w-[5%] lg:w-[19%] xl:w-[18%] sm:h-14 md:h-[77vh] lg:h-[77vh] xl:h-[77vh] rounded-xl shadow-lg gap-2 flex md:justify-between sm:justify-between lg:justify-start xl:justify-start md:items-center sm:items-center lg:items-start xl:items-start md:flex-col lg:flex-col xl:flex-col sm:py-2 md:py-2 lg:py-0 xl:py-3 p-2'>
             <NavLink
                 to="/"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >
@@ -28,7 +28,7 @@ const Pages = () => {
             <NavLink
                 to="/courses"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >
@@ -39,7 +39,7 @@ const Pages = () => {
             <NavLink
                 to="/assignment"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >
@@ -50,7 +50,7 @@ const Pages = () => {
             <NavLink
                 to="/calendar"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >
@@ -61,7 +61,7 @@ const Pages = () => {
             <NavLink
                 to="/statistics"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >
@@ -72,7 +72,7 @@ const Pages = () => {
             <NavLink
                 to="/certificates"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >
@@ -83,7 +83,7 @@ const Pages = () => {
             <NavLink
                 to="/settings"
                 className={({ isActive }) =>
-                    `flex sm:justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-white xl:font-bold xl:right-2' : ''
+                    `flex sm:justify-center justify-center relative md:justify-center lg:justify-start xl:justify-start items-center gap-3 w-full h-12 transition ease-in-out hover:bg-gray-200 rounded-xl sm:px-0 lg:px-4 xl:px-3 ${isActive ? 'bg-gray-200 xl:font-bold xl:right-2' : ''
                     }`
                 }
             >

@@ -31,22 +31,22 @@ const CoursesPage = () => {
 
             <div className="flex flex-wrap gap-5 justify-between">
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">N/A</p>
                 <p className="text-gray-500 text-sm">Total Duration</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">2 Hours</p>
                 <p className="text-gray-500 text-sm">In Class Instruction</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">0 Hours</p>
                 <p className="text-gray-500 text-sm">In Car Instruction</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">2 Seats Left</p>
                 <p className="text-gray-500 text-sm">Availability</p>
               </div>
@@ -74,22 +74,22 @@ const CoursesPage = () => {
 
             <div className="flex flex-wrap gap-5 justify-between">
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">N/A</p>
                 <p className="text-gray-500 text-sm">Total Duration</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">0 Hours</p>
                 <p className="text-gray-500 text-sm">In Class Instruction</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">2 Hours</p>
                 <p className="text-gray-500 text-sm">In Car Instruction</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">10 Seats Left</p>
                 <p className="text-gray-500 text-sm">Availability</p>
               </div>
@@ -124,22 +124,22 @@ const CoursesPage = () => {
 
             <div className="flex flex-wrap gap-5 justify-between">
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">20 Hours</p>
                 <p className="text-gray-500 text-sm">Total Duration</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">8 Hours</p>
                 <p className="text-gray-500 text-sm">In Class Instruction</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">15 Hours</p>
                 <p className="text-gray-500 text-sm">In Car Instruction</p>
               </div>
 
-              <div className="bg-gray-200 w-40 h-24 rounded-md flex flex-col justify-center px-4">
+              <div className="bg-gray-200 w-28 xl:w-40 h-24 rounded-md flex flex-col justify-center px-4">
                 <p className="font-bold text-lg">2 Seats Left</p>
                 <p className="text-gray-500 text-sm">Availability</p>
               </div>
